@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
-
+//some comments on configure java file not channged anything else
     private static Properties properties;
     private final String propertyFilePath= "properties//config.properties";
 
-//some differnt comments on the same configure java
+
     public ConfigFileReader(){
         BufferedReader reader;
         try {
@@ -37,8 +37,8 @@ public class ConfigFileReader {
 
 
     public static String getEndPointUri1() {
-        String endpoint = properties.getProperty("endpoint1");
-        if(endpoint != null) return endpoint;
+        String url = properties.getProperty("endpoint1");
+        if(url != null) return url;
         else throw new RuntimeException("Endpoint not specified in the Configuration.properties file.");
     }
     public static String getEndPointUri2() {
