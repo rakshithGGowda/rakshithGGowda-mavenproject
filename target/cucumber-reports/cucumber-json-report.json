@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 469000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T09:10:12.297Z",
+        "line": 5,
+        "name": "GET operation",
+        "description": "",
+        "id": "methods-on-json-server;get-operation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1898000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user performs GET for post  number \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.MyStepdefs.userPerformsGETForPostNumber(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "author name must say \"Rakshith G\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rakshith G",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.MyStepdefs.authorNameMustSay(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T09:10:14.730Z",
+        "line": 9,
+        "name": "Obtain collection of data from JSON server",
+        "description": "",
+        "id": "methods-on-json-server;obtain-collection-of-data-from-json-server",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "author names must be seen",
+            "match": {
+              "location": "steps.MyStepdefs.authorNamesMustBeSeen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T09:10:14.821Z",
+        "line": 12,
+        "name": "Path parameters",
+        "description": "",
+        "id": "methods-on-json-server;path-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "path parameters must be passed",
+            "match": {
+              "location": "steps.MyStepdefs.parametersMustBePassed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T09:10:14.965Z",
+        "line": 15,
+        "name": "Query parameters",
+        "description": "",
+        "id": "methods-on-json-server;query-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "query parameters must be passed",
+            "match": {
+              "location": "steps.MyStepdefs.queryParametersMustBePassed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T09:10:15.024Z",
+        "line": 24,
+        "name": "Adding new post using POST Method",
+        "description": "",
+        "id": "methods-on-json-server;adding-new-post-using-post-method;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user performs POST for creating post",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsPOSTForCreatingPost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "new \"4\",\"\u003cname\u003e\" and \"Indu\" are passed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"\u003cname\u003e\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Indu\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.MyStepdefs.newAndArePassed(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "new post has been created",
+            "match": {
+              "location": "steps.MyStepdefs.newPostMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Methods on JSON server",
+    "description": "",
+    "id": "methods-on-json-server",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/feature1.feature",
+    "tags": []
+  }
+]
