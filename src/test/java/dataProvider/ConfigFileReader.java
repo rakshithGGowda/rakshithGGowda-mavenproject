@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.util.Properties;
 // some comments from branch1
 public class ConfigFileReader {
-
+//some changes from branchwrk and look it and merge it in p4merge
     private static Properties properties;
     private final String propertyFilePath= "properties//config.properties";
 
-//some differnt comments on the same configure java
+//some differnt changes which you can see now..!
     //branchwrk comments is diiferent and confilted in here..
     public ConfigFileReader(){
         BufferedReader reader;
