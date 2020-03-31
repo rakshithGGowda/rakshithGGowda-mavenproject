@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
+// some comments from branch1
 public class ConfigFileReader {
 
     private static Properties properties;
