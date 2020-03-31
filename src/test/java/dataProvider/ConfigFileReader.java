@@ -12,6 +12,7 @@ public class ConfigFileReader {
     private final String propertyFilePath= "properties//config.properties";
 
 //some differnt comments on the same configure java
+    //branchwrk comments is diiferent and confilted in here..
     public ConfigFileReader(){
         BufferedReader reader;
         try {
