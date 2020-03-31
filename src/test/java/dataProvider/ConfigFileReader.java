@@ -7,7 +7,11 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
+<<<<<<< HEAD
 
+=======
+//some comments on configure java file not channged anything else somrthimg to write
+>>>>>>> refs/heads/branchpers
     private static Properties properties;
     private final String propertyFilePath= "properties//config.properties";
 
