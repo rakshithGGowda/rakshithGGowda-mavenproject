@@ -1,14 +1,14 @@
 Feature: Methods on JSON server
 Background:
 Given  user sets base URI of JSON server
-	@tag1
+	@tag2
   Scenario: GET operation
     When user performs GET for post  number "2"
     Then author name must say "Rakshith G"
 
   Scenario: Obtain collection of data from JSON server
     Then author names must be seen
-@tag2
+@tag3
   Scenario: Path parameters
     Then path parameters must be passed
 
@@ -22,7 +22,7 @@ Given  user sets base URI of JSON server
     Examples:
       | id | title   | author     |
       | 4 | Transaction 800Rs | Indu |
-@tag3
+@tag5
   Scenario Outline: Deleting a post using DELETE Method
     When user performs DELETE for deleting ost
     Then post with "<id>" must be deleted
