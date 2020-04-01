@@ -1,11 +1,11 @@
 Feature: Methods on JSON server
 Background:
 Given  user sets base URI of JSON server
-	@tag2
+	@tag1
   Scenario: GET operation
     When user performs GET for post  number "2"
     Then author name must say "Rakshith G"
-@tag17
+
   Scenario: Obtain collection of data from JSON server
     Then author names must be seen
 @tag2
@@ -22,7 +22,7 @@ Given  user sets base URI of JSON server
     Examples:
       | id | title   | author     |
       | 4 | Transaction 800Rs | Indu |
-@tag5
+@tag3
   Scenario Outline: Deleting a post using DELETE Method
     When user performs DELETE for deleting ost
     Then post with "<id>" must be deleted
