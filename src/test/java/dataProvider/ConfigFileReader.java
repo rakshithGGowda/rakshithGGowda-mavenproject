@@ -7,12 +7,10 @@ import java.io.IOException;
 import java.util.Properties;
 // some comments from branch1
 public class ConfigFileReader {
-
     private static Properties properties;
     private final String propertyFilePath= "properties//config.properties";
 
-//some differnt comments on the same configure java
-    //branchwrk comments is diiferent and confilted in here..
+//some differnt chang
     public ConfigFileReader(){
         BufferedReader reader;
         try {
