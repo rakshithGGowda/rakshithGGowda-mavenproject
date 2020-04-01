@@ -5,13 +5,13 @@ Given  user sets base URI of JSON server
   Scenario: GET operation
     When user performs GET for post  number "2"
     Then author name must say "Rakshith G"
-
+@tag23
   Scenario: Obtain collection of data from JSON server
     Then author names must be seen
-
+@tag45
   Scenario: Path parameters
     Then path parameters must be passed
-
+@tag43
   Scenario: Query parameters
     Then query parameters must be passed
 
